@@ -1,0 +1,12 @@
+# PyTorch for CUDA 12.8 (needed for RTX 50xx): install from the PyTorch index
+--extra-index-url https://download.pytorch.org/whl/cu128
+faster-whisper
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*
+torch
+torchaudio
+torchcodec
+coqui-tts
+transformers>=4.57,<5
+demucs
+speechbrain

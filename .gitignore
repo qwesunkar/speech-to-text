@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+
+# Applio (RVC) is its own repo; set up per README
+rvc/
+
+# copyrighted audio, lyrics and the trained voice model stay local
+experiment/*
+!experiment/similarity.py
+*.mp3
+*.mp4
+*.wav
+*.srt
+*.txt
+!requirements.txt

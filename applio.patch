@@ -1,0 +1,20 @@
+diff --git a/rvc/train/train.py b/rvc/train/train.py
+index 8969ac7..241eed6 100644
+--- a/rvc/train/train.py
++++ b/rvc/train/train.py
+@@ -340,13 +340,13 @@ def run(
+ 
+     train_loader = DataLoader(
+         train_dataset,
+-        num_workers=4,
++        num_workers=2,
+         shuffle=False,
+         pin_memory=True,
+         collate_fn=collate_fn,
+         batch_sampler=train_sampler,
+         persistent_workers=True,
+-        prefetch_factor=8,
++        prefetch_factor=2,
+     )
+ 
+     # Validations
