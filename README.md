@@ -1,4 +1,4 @@
-# speech_to_text_v2
+# speech-to-text
 
 Three scripts, all running on an NVIDIA GPU:
 
